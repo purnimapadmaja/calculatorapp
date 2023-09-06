@@ -1,0 +1,61 @@
+.g-container {
+    text-align: center;
+}
+
+.cal-container {
+    background-color: aliceblue;
+    display: grid;
+    height: 70vh;
+    width: 40vw;
+    text-align: justify;
+
+
+
+    grid-template-columns: 100px 100px 100px 100px;
+    grid-column-gap: 1px;
+    justify-content: center;
+    padding: 29px;
+    margin-left: 328px;
+    margin-top: 10px;
+
+
+}
+
+.equal-button {
+    width: 135px;
+    height: 45px;
+    margin-top: 14px;
+    padding: 2px;
+    background-color: white;
+    border-radius: 34px;
+
+}
+
+.equal-button:hover {
+    background-color: rgb(23, 21, 21);
+    color: white;
+    border-radius: 0px;
+}
+
+.button {
+    background-color: white;
+    border-width: 1px;
+    font-size: 33px;
+    padding: 2px;
+    margin-top: 14px;
+    width: 49px;
+    border-radius: 34px;
+
+
+
+}
+
+.button-cont {
+    text-align: center;
+}
+
+.button:hover {
+    background-color: rgb(162, 156, 156);
+    color: rgb(12, 11, 11);
+    border-radius: 0px;
+}
